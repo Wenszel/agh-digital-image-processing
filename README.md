@@ -1,5 +1,9 @@
 <h1 align="center"> Digital Image Processing - AGH Course 2024/2025 </h1>
 
+<p align="center">
+  <img src="/readme-images/mandril.png" />
+</p>
+
 ## Lab 1 - Intro to OpenCV
 Basic operations on images: reading, displaying with different color models 
 </br> 
