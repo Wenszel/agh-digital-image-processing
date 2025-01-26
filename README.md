@@ -15,6 +15,9 @@ Basic operations on images: reading, displaying with different color models
 - Logical operations on images 
 - Arithmetic operations on images 
 </br> 
+This image shows the result of adding two images together:
+
+![SumExample](/readme-images/sum-example.png)
 
 [Notebook](02_point.ipynb)
 
