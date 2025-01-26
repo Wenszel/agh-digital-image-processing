@@ -15,6 +15,7 @@ Basic operations on images: reading, displaying with different color models
 - Logical operations on images 
 - Arithmetic operations on images 
 </br> 
+
 This image shows the result of adding two images together:
 
 ![SumExample](/readme-images/sum-example.png)
@@ -39,6 +40,7 @@ Thresholding is a method to segment an image into two parts: the foreground and 
 - Otsu - is a method that automatically determines the best threshold value to separate an image into two classes: foreground and background. In other words, it finds the value that minimizes the combined variance of these two classes, making the image as distinct as possible between the two regions.
 - Adaptive - method that calculates the threshold value for each pixel based on the local neighborhood of the pixel
 </br> 
+
 This image shows the result of applying thresholding on an image to segment the foreground and background:
 
 ![ThresholdingExample](/readme-images/thresholding-example.png)
@@ -53,6 +55,9 @@ Examples of interpolation methods:
 - Bicubic - method that calculates the value of the new pixel based on the weighted average of the sixteen nearest pixels
 </br>
 
+This graph shows the difference between images saved at 5, 4, 3, 2, and 1 bits per pixel, demonstrating that the human eye can't distinguish between 8-bit and 5-bit images.
+![ResolutionExample](/readme-images/resolution-example.png)
+
 [Notebook](05_resolution.ipynb)
 
 ## Lab 6 - Image filtering
@@ -60,7 +65,8 @@ Image filtering is used to remove noise, blur the image, or detect edges. It is 
 Examples of filters:
 - Low-pass filters: gaussian, median, averaging
 - High-pass filters: laplacian, sobel, prewitt, roberts
-</br> 
+</br>
+
 This image shows the result of applying a median filter on an image to remove noise:
 
 ![MedianFilterExample](/readme-images/median-filter-example.png)
